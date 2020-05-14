@@ -1,0 +1,68 @@
+body{
+	background-image: url(img/back.jpg);
+	margin: 0;
+	height: 100rem;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+}
+.sign-up-form{
+	width: 500px;
+	padding-bottom: 50px;
+	background: black;opacity: 0.9;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+img{
+	width: 150px;
+	margin-top: -50px;
+}
+.sign-up-form h1{
+	color: white;
+	margin-bottom: 30px;
+}
+#demo{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 80%;
+	border: 1px solid #999;
+	outline: none;
+}
+#buton{
+	color: #fff;
+	width: 70%;
+	padding:10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	background-color: #1c8adb;
+}
+.error{
+	width: 92%;
+	margin:0px auto;
+	padding: 10px;
+	border:1px solid #a94442;
+	color:#a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: center;
+}
+.success{
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d ;
+	margin-bottom: 20px;
+}
+.signup-button{
+	color:white;width: 70%;padding:10px;border-radius: 20px;font-size: 15px;margin: 10px 0;border: none;outline: none;cursor: pointer;color: white;background-color: #1c8adb;color: white;
+}
+.or{
+	background-color: blanchedalmond;opacity: 0.9;width: 30px;margin: -19px auto 10px;
+}

@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+html{
+    font-size: 17px;
+}
+.navbar-brand{
+    border :1px solid black;
+}
+header{
+    width: 100%;
+    height: 86.4rem;
+}
+.bannerHeader{
+    width: 100%;
+    height: 38rem;
+}
+.headerInfo{
+    position: absolute;
+    width: 88%;
+    height: auto;
+    top: 38%;
+    left: 5%;
+}
+.headerInfo h1{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.headerInfo p{
+    color: white;
+    text-align: center;
+
+}
+
+.button{
+    position: absolute;
+    top: 250%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: gray;
+    color: #000;
+}
+.selectSet{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+main{
+    width: 100%;
+    height: 60rem;
+    padding-bottom: 133px;
+}
+#otelTanitim{
+    width: 100%;
+    height: 55rem;
+    background-color: #464854;
+    padding: 2rem;
+}
+.otelResim{
+    background-image: url(img/hotel.jpg);
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+.otelInfo h1{
+    color: white;
+    margin-top: 1rem;
+}
+.otelInfo p{
+    color: white;
+    line-height: 2rem;
+}
+.wd{
+    width: 100%;
+    height: 45rem;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+  }
+  
+  .wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    margin-top: 50px;
+    color: white;
+  }
+  .wd img{
+    width: 25rem;
+    height: 300px;
+    margin-left: 15px;
+  }
+  
+  .wd h4{
+    text-align: center;
+    color: darkgray;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  .wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+    color: white;
+  }
+
+  .opt form ,input[type="button"]{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin:-14px auto;
+    padding-left: 50px;
+    padding-right:  50px;
+    text-align: center;
+    position: center;
+  }
+.opt h4{
+    margin-top: 50px;
+}
+  
+  form, input[type="button"]:hover{
+    background-color:green;
+  }
+#Rooms{
+    width: 100%;
+    height: 65rem;
+    background-color:black ;
+    background-size: cover;
+    background-position: right;
+    padding: 3rem;
+}
+
+.jumbotron{
+    width: 40rem;
+    height: auto;;
+}
+.one{
+    float: left;
+}
+.two{
+    float: right;
+}
+.three{
+    float: left;
+}
+.four{
+    float: right;
+}
+#service{
+    width: 100%;
+    height: 50rem;
+    padding: 2.5rem;
+}
+
+.serviceInfo h2{
+    text-align: center;
+}
+#servicePencere{
+    border: 5px solid #554c4c;
+    width: 40rem;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+    float: left;
+  }
+  .serviceOne{
+    background-image: url(img/sahil.png);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+  }
+  .serviceTwo{
+    background-image: url(img/mutfak.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+  }
+  .serviceThree{
+    background-image: url(img/hamam.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+  }
+  .serviceFour{
+    background-image: url(img/baklava.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+  }
+  .serviceInfo h2{
+    text-align: center;
+  }
+  .serviceLike{
+    background-image: url(img/tavsiye.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  footer{
+    position: relative;
+    margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
+    height: 133px;
+    clear:both;
+    height: auto;
+    background-color: black;
+  }
+  #sectionFooter{
+    width: 100%;
+    height: 20rem;
+    border: 1 px solid black;
+  }
+  #sectionFooter h1{
+      color: white;
+  }
+  #sectionFooter p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:800px){
+    html{
+        font-size: 15px;
+    }
+    .otelResim{
+        background-position: top;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    html{
+        font-size: 17px;
+    }
+    .headerInfo select{
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .headerInfo button{
+        margin-right: 3.1rem;
+    }
+    .otelResim{
+        width: 49%;
+        height: 32rem;
+        float: left;
+        margin-right: 1rem;
+      
+    }
+    .otelInfo{
+        width: 49%;
+        float: left;
+    }
+    #otelTanitim{
+        height: 37rem;
+    }
+    #odalar .jumbotron:nth-child(odd){
+        width: 48%;
+        float: left;
+    }
+     #odalar .jumbotron:nth-child(even){
+        width: 48%;
+        float: right;
+    }
+    #odalar{
+        height:71rem;
+    }
+    main{
+        height: auto;
+    }
+    footer{
+        height: 20rem;
+    }
+    #sectionFooter{
+        width: 32%;
+        float: left;
+        margin-left: 1rem;
+    }
+}

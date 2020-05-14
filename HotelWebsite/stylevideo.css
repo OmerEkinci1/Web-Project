@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+html{
+    font-size: 17px;
+}
+.navbar-brand{
+    border :1px solid black;
+}
+header{
+    width: 100%;
+    height: 36rem;
+    background-color:#dddddd
+}
+.headerInfo{
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    width: 48%;
+    height: auto;
+    top: 50%;
+    left: 25%;
+}
+.headerInfo h1{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
+main{
+    width: 100%;
+    height: 60rem;
+    padding-bottom: 30px;
+}
+.video{
+    background-color: black;
+    text-align: center;
+    padding: 10rem;
+}
+.video img{
+    position:absolute;
+    background-size: cover;
+    width: 55.9rem;
+    height: 43.3rem;
+}
+.video iframe{
+    position: relative;
+    margin: 125px;
+    margin-bottom: 5px;
+    bottom: 4px;
+}
+#sablonlar{
+    
+    width: 75%;
+    height: 650px;
+    margin: auto;
+}
+
+#sablonlar h1{
+    text-align: center;
+    font-size: 35px;
+}
+.sablon{
+   
+    width: 30%;
+    height: 450px;
+    background-color: #29282D;
+    float: left;
+    margin-right: 56px;
+    font-size: 10px;
+}
+.sablon h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 65px;
+   
+}
+.sablon p{
+    color: #F34e3a;
+    font-size: 20px;
+    text-align: center;
+}
+.bilgi{
+    border-bottom: 1px solid black;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 5px;
+}
+.bilgi h3{
+    color: white;
+    text-align: center;
+    
+}
+.iconBanner{
+    width: 40px;
+    height: 40px; 
+    float: right;
+    background-image: url(img/right-arrow.png);
+    background-size: cover;
+    margin-top:-8px;
+    margin-right: 10px;
+}
+#button{
+    border: 1px solid #F34e3a;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    background-color: #F34e3a;
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+#button a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    float: left;
+}
+
+footer{
+    position: relative;
+    margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
+    height: 133px;
+    clear:both;
+    height: auto;
+    background-color: black;
+  }
+  #sectionFooter{
+    width: 100%;
+    height: 20rem;
+    border: 1 px solid black;
+  }
+  #sectionFooter h1{
+      color: white;
+  }
+  #sectionFooter p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:800px){
+    html{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px){
+    html{
+        font-size: 17px;
+    }
+
+    main{
+        height: auto;
+    }
+    footer{
+        height: 20rem;
+    }
+    #sectionFooter{
+        width: 32%;
+        float: left;
+        margin-left: 1rem;
+    }
+}

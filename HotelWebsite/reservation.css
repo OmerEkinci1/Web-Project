@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 17px;
+}
+header{
+    width: 100%;
+    height: 60rem;
+}
+.contact-section{
+    background: url(img/unnamed.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color : #ddd;
+}
+.border{
+    width: 50%;
+    height: 10px;
+    background : #34495e;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline :none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea .contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border:0;
+    background: #34495e;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+main{
+    width: 100%;
+    height: 70rem;
+    padding-bottom: 30px;
+    float: left;
+}
+.harita{
+    width: 60%;
+    margin: 50px;
+    margin-left:20rem ;
+    margin-bottom: 10rem;
+}
+.harita iframe{
+    border: 2px groove black;
+    position: relative;
+    margin: 6.1rem;
+}
+.harita img{
+    position: absolute;
+}
+footer{
+    position: relative;
+    margin-top: -133px; /* altAlan yuksekliginin eksi degeri */
+    height: 133px;
+    clear:both;
+    height: auto;
+    background-color: black;
+  }
+  #sectionFooter{
+    width: 100%;
+    height: 20rem;
+    border: 1 px solid black;
+  }
+  #sectionFooter h1{
+      color: white;
+  }
+  #sectionFooter p{
+    color: white;
+    font-size: 1.2rem;
+  }
+@media (max-width:768px){
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    #contact-section .submit{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:800px){
+    html{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (min-width:1200px){
+    html{
+        font-size: 17px;
+    }
+
+    main{
+        height: auto;
+    }
+    footer{
+        height: 20rem;
+    }
+    #sectionFooter{
+        width: 32%;
+        float: left;
+        margin-left: 1rem;
+    }
+}
+
